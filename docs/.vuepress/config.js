@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Netlify CMS + VuePress',
+  title: 'Platos Dice Game',
   description: 'Netlify + VuePress',
   themeConfig: {
     docsDir: 'docs',
