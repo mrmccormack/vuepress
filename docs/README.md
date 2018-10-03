@@ -1,37 +1,15 @@
 ---
-home: true
-actionText: Get Started →
-actionLink: /guide/
+home: true 
+heroImage: /images/vuejsradar.png
+actionText: Try it Out →
+actionLink: /welcome
 features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: Markdown Editing 
+  details: Netlify's CMS provides a flexible Markdown Editor 
+- title: Asset Management 
+  details: Easily upload images to your repo with an uploader 
+- title: Powerful Deployments
+  details: Leverage the power of netlify and VuePress to deploy statically 
+footer: MIT Licensed | Copyright © 2018-present Andre Liem (www.vuejsradar.com) 
+title: FRONT PAGE
 ---
-# Wakanda Heritage
-## Alert Options
-::: tip
-This is a tip
-:::
-::: warning No
-This is a warning
-:::
-::: danger
-This is a dangerous warning
-:::
-### Line highlight in code blocks
-```js{4,2}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```/
-#### Using Vue in Markdown
-{{ 4 + 5 * 9 }}
-<MyComponent :start="5"></MyComponent>
